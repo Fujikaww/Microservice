@@ -1,8 +1,10 @@
-Instructions
+Instructions:
+
     1. Install dependencies by typing "pip install fastapi uvicorn pydantic"
     2. Make sure you have REST client installed
 
-Making a Request
+Making a Request:
+
     1. Create an http file with a method (in this case POST) followed by a URL to the path you'd like the request sent to
     2. Specify the content type of the data being sent (application/json)
     3. Add a "numbers" list containing the numbers that you would like averaged, counted, and compared
@@ -17,7 +19,8 @@ Making a Request
 
     4. Click on the send request just above POST
 
-Recieving a Request 
+Recieving a Request:
+
     1. Once a request is sent, a separate tab will open containing the desired output
     
     Example:
